@@ -1,0 +1,120 @@
+﻿@model HOTEL_MEDITERRANEO.Models.VentasModel
+
+@{
+    // No usamos Layout para PDFs individuales para tener control total del HTML
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Comprobante de Venta - @Model.NumeroRecibo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 10pt;
+            margin: 20mm; /* Márgenes para impresión */
+        }
+
+        .container {
+            width: 100%;
+            max-width: 80mm; /* Ancho típico de un recibo */
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        h2, h3 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .header, .footer {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 9pt;
+        }
+
+        .details-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+
+            .details-table td {
+                padding: 3px 0;
+                border-bottom: 1px dashed #eee;
+            }
+
+        .total {
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .line-separator {
+            border-bottom: 1px dashed #ccc;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>HOTEL MEDITERRANEO</h2>
+            <p>Tu Dirección del Hotel aquí</p>
+            <p>Tel: +123 456 789</p>
+            <p>RUC: 20XXXXXXXXX</p>
+        </div>
+
+        <div class="line-separator"></div>
+
+        <h3>COMPROBANTE DE VENTA</h3>
+        <p style="text-align: center;">** ORIGINAL **</p>
+
+        <div class="line-separator"></div>
+
+        <table class="details-table">
+            <tr>
+                <td><strong>Recibo N°:</strong></td>
+                <td style="text-align: right;">@Model.NumeroRecibo</td>
+            </tr>
+            <tr>
+                <td><strong>Fecha:</strong></td>
+                <td style="text-align: right;">@Model.Fecha.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+            <tr>
+                <td><strong>Cliente:</strong></td>
+                <td style="text-align: right;">@Model.NombreCliente</td>
+            </tr>
+            <tr>
+                <td><strong>Habitación N°:</strong></td>
+                <td style="text-align: right;">@Model.NumeroHabitacion</td>
+            </tr>
+            <tr>
+                <td><strong>N° Personas:</strong></td>
+                <td style="text-align: right;">@Model.NumeroPersonas</td>
+            </tr>
+            <tr>
+                <td><strong>Método de Pago:</strong></td>
+                <td style="text-align: right;">@Model.MetodoPago</td>
+            </tr>
+        </table>
+
+        <div class="line-separator"></div>
+
+        <div class="total">
+            Total Pagado: S/ @Model.Monto.ToString("N2")
+        </div>
+
+        <div class="line-separator"></div>
+
+        <div class="footer">
+            <p>¡Gracias por su preferencia!</p>
+            <p>Para cualquier consulta, visítenos o llámenos.</p>
+        </div>
+    </div>
+</body>
+</html>

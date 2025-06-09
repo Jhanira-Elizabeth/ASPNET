@@ -33,7 +33,7 @@
     <div class="col-md-6">
         <div class="card border-primary shadow-sm">
             <div class="card-header bg-primary text-white">
-                <strong>Totales del Día (@hoy.ToString("dd MMM yyyy"))</strong>
+                <strong>Totales del Día (@hoy.ToString("dd MMM."))</strong>
             </div>
             <div class="card-body">
                 <p><strong>Efectivo:</strong> S/ @CalcularTotal(ventasHoy, "Efectivo").ToString("N2")</p>
@@ -54,7 +54,6 @@
     </div>
 </div>
 
-<!-- Filtros -->
 <div class="row mb-4">
     <div class="col-md-6">
         <form method="get">
@@ -67,6 +66,10 @@
                         <input type="date" name="fechaConsulta" class="form-control" />
                     </div>
                     <button type="submit" class="btn btn-info">Consultar</button>
+                    @* MODIFICADO: Convertido de <a> a <button type="submit"> con formaction *@
+                    <button type="submit" class="btn btn-outline-info ms-2" formaction="@Url.Action("DescargarComprobantesPdf", "Ventas")">
+                        <i class="fas fa-file-pdf"></i> PDF
+                    </button>
                     @if (fechaConsulta.HasValue)
                     {
                         <div class="mt-3">
@@ -90,18 +93,22 @@
                     <div class="mb-2 row">
                         <div class="col">
                             <select name="mesConsulta" class="form-control">
-                                <option value="">-- Mes --</option>
+                                <!option value="" @((mesConsulta == null) ? "selected" : "")>-- Mes --</!option>
                                 @for (int i = 1; i <= 12; i++)
                                 {
-                                    <option value="@i">@System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i)</option>
+                                    <!option value="@i" @(mesConsulta == i ? "selected" : "")>@System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i)</!option>
                                 }
                             </select>
                         </div>
                         <div class="col">
-                            <input type="number" name="anioConsulta" placeholder="Año" class="form-control" min="2000" max="2100" />
+                            <input type="number" name="anioConsulta" placeholder="Año" class="form-control" min="2000" max="2100" value="@anioConsulta" />
                         </div>
                     </div>
                     <button type="submit" class="btn btn-warning">Consultar</button>
+                    @* MODIFICADO: Convertido de <a> a <button type="submit"> con formaction *@
+                    <button type="submit" class="btn btn-outline-warning ms-2" formaction="@Url.Action("DescargarComprobantesPdf", "Ventas")">
+                        <i class="fas fa-file-pdf"></i> PDF
+                    </button>
                     @if (mesConsulta.HasValue && anioConsulta.HasValue)
                     {
                         <div class="mt-3">
@@ -118,6 +125,9 @@
 
 <p>
     <a asp-action="Create" class="btn btn-primary mb-3">Crear Nueva Venta</a>
+    <a asp-action="DescargarComprobantesPdf" asp-controller="Ventas" class="btn btn-secondary mb-3 ms-2">
+        <i class="fas fa-file-pdf"></i> Descargar Reporte PDF General
+    </a>
 </p>
 
 @if (ventasAMostrar != null && ventasAMostrar.Any())
@@ -161,7 +171,11 @@
                         <a asp-action="Edit" asp-route-id="@item.NumeroRecibo" class="btn btn-sm btn-warning">Editar</a>
                         <a asp-action="Details" asp-route-id="@item.NumeroRecibo" class="btn btn-sm btn-info">Detalles</a>
                         <a asp-action="Delete" asp-route-id="@item.NumeroRecibo" class="btn btn-sm btn-danger">Eliminar</a>
-
+                        @* MODIFICADO: Añadido " PDF" al texto del botón *@
+                        <a asp-action="DescargarComprobanteIndividualPdf" asp-controller="Ventas" asp-route-id="@item.NumeroRecibo"
+                           class="btn btn-sm btn-outline-dark" title="Descargar Comprobante PDF">
+                            <i class="fas fa-file-pdf"></i> PDF
+                        </a>
                     </td>
 
                 </tr>

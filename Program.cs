@@ -40,4 +40,12 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
+// Para Rotativa.AspNetCore, asegúrate de que la carpeta "Rotativa" existe en la raíz de tu proyecto
+// (al mismo nivel que wwwroot, Controllers, Views, etc.)
+// Y que contiene los ejecutables de wkhtmltopdf para tu sistema operativo.
+// Rotativa se encargará de copiar wkhtmltopdf automáticamente al instalar el paquete NuGet,
+// pero es bueno saber dónde debería estar.
+Rotativa.AspNetCore.RotativaConfiguration.Setup(app.Environment.WebRootPath, "Rotativa");
+
+
 app.Run();

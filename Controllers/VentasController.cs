@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HOTEL_MEDITERRANEO.Data;
 using HOTEL_MEDITERRANEO.Models;
+//Nuevo using
+using Rotativa.AspNetCore;
 
 namespace HOTEL_MEDITERRANEO.Controllers
 {
@@ -152,6 +154,64 @@ namespace HOTEL_MEDITERRANEO.Controllers
         private bool VentasModelExists(string id)
         {
             return _context.Ventas.Any(e => e.NumeroRecibo == id);
+        }
+
+        // Nueva acción para generar el PDF
+        [HttpGet] // Puedes hacerlo con un botón que apunte a esta URL
+        public async Task<IActionResult> DescargarComprobantesPdf(
+            DateTime? fechaConsulta, // Para el filtro por fecha específica
+            int? mesConsulta,       // Para el filtro por mes
+            int? anioConsulta)      // Para el filtro por año
+        {
+            IQueryable<VentasModel> ventasQuery = _context.Ventas;
+
+            if (fechaConsulta.HasValue)
+            {
+                ventasQuery = ventasQuery.Where(v => v.Fecha.Date == fechaConsulta.Value.Date);
+            }
+            else if (mesConsulta.HasValue && anioConsulta.HasValue)
+            {
+                ventasQuery = ventasQuery.Where(v => v.Fecha.Month == mesConsulta.Value && v.Fecha.Year == anioConsulta.Value);
+            }
+            // Si no se especifica ningún filtro, se descargan todas las ventas (comportamiento actual)
+
+            var ventas = await ventasQuery.ToListAsync();
+
+            return new ViewAsPdf("VentasPdf", ventas) // Sigue usando la vista VentasPdf existente
+            {
+                FileName = "ComprobantesDeVentas.pdf",
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+                PageSize = Rotativa.AspNetCore.Options.Size.A4,
+                // Puedes personalizar el nombre del archivo si hay filtros
+                // FileName = $"Reporte_Ventas_{(fechaConsulta.HasValue ? fechaConsulta.Value.ToString("yyyyMMdd") : (mesConsulta.HasValue ? $"{mesConsulta.Value:00}{anioConsulta.Value}" : "General"))}.pdf"
+            };
+        }
+
+
+        // NUEVA ACCIÓN: Para generar el PDF de un comprobante individual
+        [HttpGet]
+        public async Task<IActionResult> DescargarComprobanteIndividualPdf(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var venta = await _context.Ventas
+                .FirstOrDefaultAsync(m => m.NumeroRecibo == id);
+
+            if (venta == null)
+            {
+                return NotFound();
+            }
+
+            // Usaremos una nueva vista específica para el comprobante individual
+            return new ViewAsPdf("ComprobanteIndividualPdf", venta)
+            {
+                FileName = $"Comprobante_{venta.NumeroRecibo}.pdf",
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+                PageSize = Rotativa.AspNetCore.Options.Size.A5 // A5 es más pequeño, ideal para un solo recibo
+            };
         }
     }
 }
