@@ -1,0 +1,118 @@
+﻿@model IEnumerable<HOTEL_MEDITERRANEO.Models.GastoModel>
+
+@{
+    ViewData["Title"] = "Gastos"; // Título más descriptivo
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    // Recuperar datos del presupuesto de ViewData
+    decimal totalGastos = (decimal)ViewData["TotalGastos"];
+    decimal montoPresupuesto = (decimal)ViewData["MontoPresupuesto"];
+    decimal presupuestoRestante = (decimal)ViewData["PresupuestoRestante"];
+}
+
+<h1>Gestión de Gastos y Presupuesto</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Registrar Nuevo Gasto</a>
+    <a asp-action="SetPresupuesto" class="btn btn-info">Establecer/Modificar Presupuesto</a>
+</p>
+
+@* Mensaje de éxito si se actualizó el presupuesto *@
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="row mb-4">
+    <div class="col-md-4">
+        <div class="card text-white bg-dark mb-3">
+            <div class="card-header">Presupuesto Actual</div>
+            <div class="card-body">
+                <h5 class="card-title">S/ @montoPresupuesto.ToString("N2")</h5>
+                <p class="card-text">Monto total establecido para gastos.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-danger mb-3">
+            <div class="card-header">Gastos Totales</div>
+            <div class="card-body">
+                <h5 class="card-title">S/ @totalGastos.ToString("N2")</h5>
+                <p class="card-text">Suma de todos los gastos registrados.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white @(presupuestoRestante >= 0 ? "bg-success" : "bg-warning") mb-3">
+            <div class="card-header">Presupuesto Restante</div>
+            <div class="card-body">
+                <h5 class="card-title">S/ @presupuestoRestante.ToString("N2")</h5>
+                <p class="card-text">Monto disponible o excedido.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2>Detalle de Gastos</h2>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Monto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Venta)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        S/ @Html.DisplayFor(modelItem => item.Monto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Venta.NumeroRecibo)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Detalles</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No hay gastos registrados.</td>
+            </tr>
+        }
+    </tbody>
+</table>

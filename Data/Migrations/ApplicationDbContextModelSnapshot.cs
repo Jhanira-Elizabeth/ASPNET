@@ -54,6 +54,33 @@ namespace HOTEL_MEDITERRANEO.Data.Migrations
                     b.ToTable("Gasto");
                 });
 
+            modelBuilder.Entity("HOTEL_MEDITERRANEO.Models.PresupuestoModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("MontoTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Presupuestos");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            FechaActualizacion = new DateTime(2025, 6, 9, 18, 5, 14, 971, DateTimeKind.Local).AddTicks(4800),
+                            MontoTotal = 0.00m
+                        });
+                });
+
             modelBuilder.Entity("HOTEL_MEDITERRANEO.Models.VentasModel", b =>
                 {
                     b.Property<string>("NumeroRecibo")

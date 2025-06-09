@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using HOTEL_MEDITERRANEO.Models; // ¡Añade esta línea!
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HOTEL_MEDITERRANEO.Models

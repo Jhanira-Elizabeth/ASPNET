@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HOTEL MEDITERRANEO.jqb1u43nys.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q09TuqmMKJh2uJ\u002Bg1I5N/3hoAlhcWDMlrGz3NesHUW0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q09TuqmMKJh2uJ\u002Bg1I5N/3hoAlhcWDMlrGz3NesHUW0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 14:27:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q09TuqmMKJh2uJ\u002Bg1I5N/3hoAlhcWDMlrGz3NesHUW0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 23:27:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HOTEL MEDITERRANEO/HOTEL MEDITERRANEO.jqb1u43nys.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HOTEL MEDITERRANEO.jqb1u43nys.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jqb1u43nys"},{"Name":"integrity","Value":"sha256-q09TuqmMKJh2uJ\u002Bg1I5N/3hoAlhcWDMlrGz3NesHUW0="},{"Name":"label","Value":"_content/HOTEL MEDITERRANEO/HOTEL MEDITERRANEO.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q09TuqmMKJh2uJ\u002Bg1I5N/3hoAlhcWDMlrGz3NesHUW0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 14:27:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q09TuqmMKJh2uJ\u002Bg1I5N/3hoAlhcWDMlrGz3NesHUW0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 23:27:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HOTEL MEDITERRANEO/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

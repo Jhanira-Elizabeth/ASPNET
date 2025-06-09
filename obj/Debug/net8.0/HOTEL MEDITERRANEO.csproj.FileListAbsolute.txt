@@ -287,6 +287,8 @@ C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNet
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.Build.dll
@@ -339,6 +341,7 @@ C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.Visual
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\NuGet.Common.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\NuGet.Configuration.dll
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
@@ -544,6 +547,3 @@ C:\Users\arand\Source\Repos\Hotel-Mediterraneo\obj\Debug\net8.0\refint\HOTEL MED
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\obj\Debug\net8.0\HOTEL MEDITERRANEO.pdb
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\obj\Debug\net8.0\HOTEL MEDITERRANEO.genruntimeconfig.cache
 C:\Users\arand\Source\Repos\Hotel-Mediterraneo\obj\Debug\net8.0\ref\HOTEL MEDITERRANEO.dll
-C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-C:\Users\arand\Source\Repos\Hotel-Mediterraneo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

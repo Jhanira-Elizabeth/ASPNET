@@ -32,24 +32,28 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gasto/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cQ3JlYXRlLmNzaHRtbA==
+[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gastos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gasto/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cRGVsZXRlLmNzaHRtbA==
+[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gastos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gasto/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cRGV0YWlscy5jc2h0bWw=
+[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gastos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gasto/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cRWRpdC5jc2h0bWw=
+[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gastos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gasto/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cSW5kZXguY3NodG1s
+[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gastos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Gastos/SetPresupuesto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXFNldFByZXN1cHVlc3RvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/arand/Source/Repos/Hotel-Mediterraneo/Views/Home/Index.cshtml]

@@ -1,0 +1,35 @@
+﻿@model HOTEL_MEDITERRANEO.Models.PresupuestoModel
+
+@{
+    ViewData["Title"] = "Establecer Presupuesto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Establecer Presupuesto</h1>
+
+<h4>Monto del Presupuesto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SetPresupuesto">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" /> @* Campo oculto para el Id del presupuesto (debería ser 1) *@
+
+            <div class="form-group">
+                <label asp-for="MontoTotal" class="control-label"></label>
+                <input asp-for="MontoTotal" class="form-control" />
+                <span asp-validation-for="MontoTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Guardar" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
