@@ -1,0 +1,81 @@
+﻿@model HOTEL_MEDITERRANEO.Models.VentasModel
+
+@{
+    ViewData["Title"] = "Registrar Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Registrar Nueva Venta</h2>
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <div class="card shadow p-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="NumeroRecibo" class="form-label">Número de Recibo</label>
+                    <input asp-for="NumeroRecibo" class="form-control" placeholder="Ej: 000123" />
+                    <span asp-validation-for="NumeroRecibo" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="NombreCliente" class="form-label">Nombre del Cliente</label>
+                    <input asp-for="NombreCliente" class="form-control" placeholder="Ej: Juan Pérez" />
+                    <span asp-validation-for="NombreCliente" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Monto" class="form-label">Monto (S/)</label>
+                    <input asp-for="Monto" class="form-control" placeholder="Ej: 150.00" />
+                    <span asp-validation-for="Monto" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="form-label">Método de Pago</label>
+                    <div class="btn-group d-flex" role="group">
+                        <input type="radio" class="btn-check" name="MetodoPago" id="efectivo" value="Efectivo" checked>
+                        <label class="btn btn-outline-primary flex-fill" for="efectivo">Efectivo</label>
+
+                        <input type="radio" class="btn-check" name="MetodoPago" id="transferencia" value="Transferencia">
+                        <label class="btn btn-outline-primary flex-fill" for="transferencia">Transferencia</label>
+                    </div>
+                    <span asp-validation-for="MetodoPago" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Fecha" class="form-label">Fecha</label>
+                    <input asp-for="Fecha" type="date" class="form-control" />
+                    <span asp-validation-for="Fecha" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="NumeroHabitacion" class="form-label">Número de Habitación</label>
+                    <input asp-for="NumeroHabitacion" class="form-control" placeholder="Ej: 205" />
+                    <span asp-validation-for="NumeroHabitacion" class="text-danger"></span>
+                </div>
+
+                <!-- Campo agregado: Número de Personas -->
+                <div class="form-group mb-4">
+                    <label asp-for="NumeroPersonas" class="form-label">Número de Personas</label>
+                    <input asp-for="NumeroPersonas" class="form-control" placeholder="Ej: 2" />
+                    <span asp-validation-for="NumeroPersonas" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" value="Registrar Venta" class="btn btn-success px-4" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="mt-3 text-center">
+    <a asp-action="Index" class="btn btn-secondary">Volver al listado</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

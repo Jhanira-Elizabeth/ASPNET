@@ -1,0 +1,380 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\views\\ventas\\ventaspdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:views\\ventas\\ventaspdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609021457_Reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250609021457_Reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\models\\ventasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:models\\ventasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609014923_PDF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250609014923_PDF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609012736_Recibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250609012736_Recibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\controllers\\gastocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:controllers\\gastocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\models\\gastomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:models\\gastomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609011153_Gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250609011153_Gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\models\\services\\finanzashotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:models\\services\\finanzashotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609000024_Actual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250609000024_Actual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\hotel mediterraneo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:hotel mediterraneo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\data\\migrations\\20250606062412_habitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:data\\migrations\\20250606062412_habitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\data\\migrations\\20250606055716_actualizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:data\\migrations\\20250606055716_actualizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\data\\migrations\\20250606053910_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:data\\migrations\\20250606053910_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|c:\\users\\misael\\source\\repos\\hotel mediterraneo\\data\\migrations\\20250606174235_mejora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165AEF84-FF53-4CDF-948A-03ABB5FF697D}|HOTEL MEDITERRANEO.csproj|solutionrelative:data\\migrations\\20250606174235_mejora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250609000024_Actual.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609000024_Actual.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250609000024_Actual.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609000024_Actual.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250609000024_Actual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T00:00:25.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GastoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Models\\GastoModel.cs",
+              "RelativeDocumentMoniker": "Models\\GastoModel.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Models\\GastoModel.cs",
+              "RelativeToolTip": "Models\\GastoModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T23:51:44.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250606055716_Actualizado.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606055716_Actualizado.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250606055716_Actualizado.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606055716_Actualizado.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250606055716_Actualizado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:57:16.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T05:42:47.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Ventas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ventas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Ventas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Ventas\\Index.cshtml",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAkwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T18:00:15.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentasPdf.cshtml",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Ventas\\VentasPdf.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ventas\\VentasPdf.cshtml",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Ventas\\VentasPdf.cshtml",
+              "RelativeToolTip": "Views\\Ventas\\VentasPdf.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T01:56:45.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T05:32:56.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Ventas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ventas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Views\\Ventas\\Create.cshtml",
+              "RelativeToolTip": "Views\\Ventas\\Create.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T17:57:39.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GastoController.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Controllers\\GastoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GastoController.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Controllers\\GastoController.cs",
+              "RelativeToolTip": "Controllers\\GastoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T01:23:11.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250609021457_Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609021457_Reporte.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250609021457_Reporte.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609021457_Reporte.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250609021457_Reporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:14:57.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "Controllers\\VentasController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwDUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T17:57:31.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VentasModel.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Models\\VentasModel.cs",
+              "RelativeDocumentMoniker": "Models\\VentasModel.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Models\\VentasModel.cs",
+              "RelativeToolTip": "Models\\VentasModel.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwDoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:35:30.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250609014923_PDF.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609014923_PDF.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250609014923_PDF.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609014923_PDF.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250609014923_PDF.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T01:49:24.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250609012736_Recibo.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609012736_Recibo.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250609012736_Recibo.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609012736_Recibo.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250609012736_Recibo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T01:27:37.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FinanzasHotel.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Models\\Services\\FinanzasHotel.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\FinanzasHotel.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Models\\Services\\FinanzasHotel.cs",
+              "RelativeToolTip": "Models\\Services\\FinanzasHotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T01:11:01.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250609011153_Gastos.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609011153_Gastos.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250609011153_Gastos.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250609011153_Gastos.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250609011153_Gastos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T01:11:53.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250606062412_Habitaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606062412_Habitaciones.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250606062412_Habitaciones.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606062412_Habitaciones.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250606062412_Habitaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T06:24:12.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250606174235_mejora.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606174235_mejora.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250606174235_mejora.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606174235_mejora.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250606174235_mejora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T17:42:35.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250606053910_Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606053910_Hotel.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250606053910_Hotel.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\Migrations\\20250606053910_Hotel.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250606053910_Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:39:10.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\HOTEL MEDITERRANEO\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T05:37:36.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HOTEL MEDITERRANEO.csproj",
+              "DocumentMoniker": "C:\\Users\\Misael\\source\\repos\\Hotel Mediterraneo\\HOTEL MEDITERRANEO.csproj",
+              "RelativeDocumentMoniker": "HOTEL MEDITERRANEO.csproj",
+              "ToolTip": "C:\\Users\\Misael\\source\\repos\\Hotel Mediterraneo\\HOTEL MEDITERRANEO.csproj",
+              "RelativeToolTip": "HOTEL MEDITERRANEO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T05:36:48.776Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

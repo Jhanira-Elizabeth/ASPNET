@@ -1,0 +1,49 @@
+/* _content/HOTEL MEDITERRANEO/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-gtfwv6kttz] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-gtfwv6kttz] {
+  color: #0077cc;
+}
+
+.btn-primary[b-gtfwv6kttz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-gtfwv6kttz], .nav-pills .show > .nav-link[b-gtfwv6kttz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-gtfwv6kttz] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-gtfwv6kttz] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-gtfwv6kttz] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-gtfwv6kttz] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-gtfwv6kttz] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
